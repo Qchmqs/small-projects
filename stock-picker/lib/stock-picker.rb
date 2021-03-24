@@ -27,4 +27,3 @@ def stockPicker(prices)
         
     return [best_buy, best_sell]
 end
-
