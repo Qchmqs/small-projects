@@ -6,7 +6,6 @@ def stockPicker(prices)
 
 
   (0..(prices.length - 2)).each do |buy_date|
-
     ((buy_date + 1)..prices.length - 1).each do |sell_date|
 
       price_difference = prices[sell_date] - prices[buy_date]
