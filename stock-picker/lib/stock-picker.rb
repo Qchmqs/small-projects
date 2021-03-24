@@ -24,3 +24,9 @@ def stockPicker(prices)
   
   return [best_buy, best_sell]
 end
+
+# stockPicker([17,3,6,9,15,8,6,1,10]) output:
+# Lyom 1: echri b: 3
+# Lyom 4: bi3lo b: 15
+# fayda t3 12
+# => [1, 4] 
